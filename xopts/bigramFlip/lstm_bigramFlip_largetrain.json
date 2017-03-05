@@ -1,0 +1,17 @@
+{
+    "expname": "lstm_bigramFlip_largetrain", 
+    "dataset": "data/bigramFlip/bigramFlip-32-128-10000_2_32-100_33_64", 
+    "model": "lstm", 
+    "learning_rate": 0.002, 
+    "decay_delay": 700, 
+    "seed": 1, 
+    "reset_train_interval": 10000000000, 
+    "rnn_size": 256, 
+    "embedding_size": 128, 
+    "num_lstm_layers": 2, 
+    "max_iter": 1000, 
+    "valid_interval": 50, 
+    "valid_after": 500, 
+    "checkpoint_freq": 10000000000, 
+    "gpuid": 0
+}

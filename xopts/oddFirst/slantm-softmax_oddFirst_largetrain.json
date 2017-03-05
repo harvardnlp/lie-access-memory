@@ -1,0 +1,16 @@
+{
+    "expname": "slantm-softmax_oddFirst_largetrain", 
+    "dataset": "data/oddFirst/oddFirst-32-128-10000_2_32-100_33_64", 
+    "model": "slantm", 
+    "weight_method": "SoftMax", 
+    "bound_act": true, 
+    "learning_rate": 0.02, 
+    "init_magnitude": false, 
+    "decay_delay": 600, 
+    "seed": 3, 
+    "reset_train_interval": 10000000000, 
+    "max_iter": 1000, 
+    "valid_after": 500, 
+    "checkpoint_freq": 10000000000, 
+    "gpuid": -1
+}

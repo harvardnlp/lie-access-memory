@@ -1,0 +1,15 @@
+{
+    "task": "repeatCopy", 
+    "batch_size": 32, 
+    "alphabet_size": 128, 
+    "min_train_seq_len": 20, 
+    "max_train_seq_len": 20, 
+    "min_valid_seq_len": 20, 
+    "max_valid_seq_len": 20, 
+    "train_dataset_nbatches": 10000, 
+    "valid_dataset_nbatches": 100, 
+    "train_nrepeat_high": 5, 
+    "train_nrepeat_low": 1, 
+    "valid_nrepeat_high": 10, 
+    "valid_nrepeat_low": 6
+}

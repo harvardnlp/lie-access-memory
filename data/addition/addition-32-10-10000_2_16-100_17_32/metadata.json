@@ -1,0 +1,11 @@
+{
+    "task": "addition", 
+    "batch_size": 32, 
+    "alphabet_size": 10, 
+    "min_train_seq_len": 2, 
+    "max_train_seq_len": 16, 
+    "min_valid_seq_len": 17, 
+    "max_valid_seq_len": 32, 
+    "train_dataset_nbatches": 10000, 
+    "valid_dataset_nbatches": 100
+}

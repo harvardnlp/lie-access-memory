@@ -1,0 +1,15 @@
+{
+    "expname": "slantm_double_smalltrain", 
+    "dataset": "data/double/double-32-10-10000_2_40-100_41_80", 
+    "model": "slantm", 
+    "bound_act": true, 
+    "learning_rate": 0.01, 
+    "init_magnitude": false, 
+    "decay_delay": 300, 
+    "seed": 3, 
+    "reset_train_interval": 50, 
+    "max_iter": 1000, 
+    "valid_after": 500, 
+    "checkpoint_freq": 10000000000, 
+    "gpuid": -1
+}

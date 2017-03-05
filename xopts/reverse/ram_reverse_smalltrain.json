@@ -1,0 +1,15 @@
+{
+    "expname": "ram_reverse_smalltrain", 
+    "dataset": "data/reverse/reverse-32-128-10000_2_64-100_65_128", 
+    "model": "ram", 
+    "tape": false, 
+    "learning_rate": 0.01, 
+    "init_magnitude": false, 
+    "decay_delay": 600, 
+    "key_dim": 20, 
+    "seed": 2, 
+    "max_iter": 1000, 
+    "valid_after": 500, 
+    "checkpoint_freq": 10000000000, 
+    "gpuid": -1
+}

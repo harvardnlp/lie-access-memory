@@ -1,0 +1,16 @@
+{
+    "expname": "slantm-softmax_bigramFlip_largetrain", 
+    "dataset": "data/bigramFlip/bigramFlip-32-128-10000_2_32-100_33_64", 
+    "model": "slantm", 
+    "weight_method": "SoftMax", 
+    "bound_act": false, 
+    "learning_rate": 0.02, 
+    "init_magnitude": false, 
+    "decay_delay": 300, 
+    "seed": 1, 
+    "reset_train_interval": 10000000000, 
+    "max_iter": 1000, 
+    "valid_after": 500, 
+    "checkpoint_freq": 10000000000, 
+    "gpuid": -1
+}

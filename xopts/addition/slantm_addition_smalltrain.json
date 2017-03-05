@@ -1,0 +1,15 @@
+{
+    "expname": "slantm_addition_smalltrain", 
+    "dataset": "data/addition/addition-32-10-10000_2_16-100_17_32", 
+    "model": "slantm", 
+    "bound_act": false, 
+    "learning_rate": 0.01, 
+    "init_magnitude": false, 
+    "decay_delay": 600, 
+    "seed": 3, 
+    "reset_train_interval": 50, 
+    "max_iter": 1000, 
+    "valid_after": 500, 
+    "checkpoint_freq": 10000000000, 
+    "gpuid": -1
+}

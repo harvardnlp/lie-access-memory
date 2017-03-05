@@ -1,0 +1,11 @@
+{
+    "task": "reverse", 
+    "batch_size": 32, 
+    "alphabet_size": 128, 
+    "min_train_seq_len": 2, 
+    "max_train_seq_len": 64, 
+    "min_valid_seq_len": 65, 
+    "max_valid_seq_len": 128, 
+    "train_dataset_nbatches": 10000, 
+    "valid_dataset_nbatches": 100
+}
